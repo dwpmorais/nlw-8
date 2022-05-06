@@ -15,11 +15,12 @@ const Toggle = () => {
       ) : (
         <FaMoon
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-400 text-2xl cursor-pointer"
+          color={ theme === 'dark' ? "green" : "green" }
+          className=""
         />
       )}
     </div>
-  );
+  )
 };
 
 export default Toggle;
