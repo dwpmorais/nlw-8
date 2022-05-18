@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html.dark .wrapper-body {
+    @apply bg-[#09090A] text-zinc-100;
+}
+
+html.light .wrapper-body {
+    @apply bg-[#f3f3f3] text-gray-800;
+}

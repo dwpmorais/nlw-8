@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider>
       <Background>
-        <button className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6">
+        <button className="absolute right-0 top-0">
           <Toggle />
         </button>
         <App />
